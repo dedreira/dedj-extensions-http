@@ -1,0 +1,12 @@
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/bin/Debug/net6.0/Dedj.Extensions.Http.deps.json
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/bin/Debug/net6.0/Dedj.Extensions.Http.dll
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/bin/Debug/net6.0/Dedj.Extensions.Http.pdb
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/Dedj.Extensions.Http.csproj.AssemblyReference.cache
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/Dedj.Extensions.Http.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/Dedj.Extensions.Http.AssemblyInfoInputs.cache
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/Dedj.Extensions.Http.AssemblyInfo.cs
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/Dedj.Extensions.Http.csproj.CoreCompileInputs.cache
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/Dedj.Extensions.Http.dll
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/refint/Dedj.Extensions.Http.dll
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/Dedj.Extensions.Http.pdb
+/Users/danieledreira/Projects/DedJ.Extensions/Dedj.Extensions.Http/obj/Debug/net6.0/ref/Dedj.Extensions.Http.dll

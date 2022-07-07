@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dedj.Extensions.Http/1.0.0": {
+        "runtime": {
+          "Dedj.Extensions.Http.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dedj.Extensions.Http/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -41,7 +41,8 @@ public class ConfigurableMessageHandlerShould : ConfigurableMessageHandler
         var request = new HttpRequestMessage();
         var expectedResponseMessage = new HttpResponseMessage(System.Net.HttpStatusCode.OK);        
         var action = () => {return expectedResponseMessage;};  
-
+        ConfigureReturnMessage(action);
+        
         var response = await SendAsync(request,CancellationToken.None);
 
         response.Should().Be(expectedResponseMessage);

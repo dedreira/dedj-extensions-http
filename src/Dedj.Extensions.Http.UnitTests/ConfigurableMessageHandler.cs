@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace Dedj.Extensions.Http.UnitTests;
+namespace System.Net.Http;
 
 public class ConfigurableMessageHandler : HttpMessageHandler
 {
@@ -12,9 +12,8 @@ public class ConfigurableMessageHandler : HttpMessageHandler
     public void ConfigureReturnMessage(Func<HttpResponseMessage> action)
     {
         _action  = action;
-    }    
-    protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
-    {        
-        return Task.FromResult(_action.Invoke());
     }
+    protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) => Task.FromResult(_action.Invoke());
+
+    protected override HttpResponseMessage Send(HttpRequestMessage request, CancellationToken cancellationToken) => _action.Invoke();
 }
